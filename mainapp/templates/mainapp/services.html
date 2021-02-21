@@ -1,0 +1,549 @@
+{% load static %}
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Белая Орхидея</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="{% static 'css/flexslider.css' %}">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="{% static 'fonts/flaticon/font/flaticon.css' %}">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+	<!-- Modernizr JS -->
+	<script src="{% static 'js/modernizr-2.6.2.min.js' %}"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="colorlib-loader"></div>
+	
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="top">
+								<div class="row">
+									<div class="col-md-6">
+										<a href="/"><img class="logo-hw" src="{% static 'images/logo.png' %}" alt=""></a>
+									</div>
+									<!-- <div class="col-md-6">
+										<div id="colorlib-logo"><a href="index.html"><i class="flaticon-stethoscope"></i>Белая<span> Орхидея</span></a></div>
+									</div> -->
+									<div class="col-md-3">
+										<div class="num">
+											<span class="icon"><i class="icon-phone"></i></span>
+											<p><a href="#"> 8-982-363-41-00</a><br><a href="#">8-951-258-36-51</a></p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="loc">
+											<span class="icon"><i class="icon-location"></i></span>
+											<p><a href="/contact/#ya_map">ул Ленина 84<br>Троицк 457100</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-wrap">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-8">
+								<div class="menu-1">
+									<ul>
+										<li><a href="/">Главная</a></li>
+                                        <li>
+											<a href="/doctors/">Специалисты</a>
+										</li>
+										<li class="active"><a href="/services/">Услуги</a></li>
+										<li>
+											<a href="/skidki/">Акции</a>
+										</li>
+										<li><a href="/contact/">Контакты</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<p class="btn-cta"><a href="#"><span>Записаться на прием<i class="icon-calendar3"></i></span></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	
+	<aside id="colorlib-hero" class="hero">
+		<div class="flexslider">
+			<ul class="slides">
+		   	<li style="background-image: url({% static 'images/orh_bg_1.webp' %});">
+		   		<div class="overlay"></div>
+		   		<div class="container">
+		   			<div class="row">
+			   			<div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 text-center slider-text">
+			   				<div class="slider-text-inner">
+			   					<h1>Наши<strong> Услуги</strong></h1>
+								<h2>Мы предоставляем более 25 направлений</h2>
+			   				</div>
+			   			</div>
+			   		</div>
+		   		</div>
+		   	</li>
+		  	</ul>
+	  	</div>
+	</aside>
+
+	<div id="colorlib-appointment">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h2 class="line-block">Выбрать дату</h2>
+					<p class="line-block"><a href="#" class="btn btn-primary btn-outline btn-cta">Записаться на прием<i class="icon-calendar3"></i></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="colorlib-services">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
+					<h2 id="all-services">Все услуги</h2>
+					<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-healthy-1"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Маммология</a></h3>
+							<p>В последнее время женщины так часто обращаются за консультацией к маммологу, что его принято считать «вторым» женским врачом после гинеколога.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-hospital"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">УЗИ</a></h3>
+							<p>Эффективный и безболезненный метод диагностики, который всего за двадцать лет своего существования стал широко применяться в различных медицинских учреждениях.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-ambulance"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Кардиология</a></h3>
+							<p>Это раздел клинической медицины, изучающий строение, функции сердца и сердечно-сосудистой системы, а также различные болезни сердца, методы их профилактики, диагностики, лечения, реабилитации.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-blood-donation"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Лор</a></h3>
+							<p>Если вовремя не лечить воспаления, возникающие в гайморовой пазухе, то можно «заработать» гайморит</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-radiation"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Флеболог</a></h3>
+							<p>Своевременный осмотр и обследование позволяют выявлять патологию сосудов на ранней стадии их развития.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-medical"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Офтальмология</a></h3>
+							<p>На сегодняшний день, наша жизнь не возможна без визуальных средств информации, однако, нередко это приводит к перенапряжению органов зрения.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-healthy-1"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Акушерство и гинекология</a></h3>
+							<p>Медицинский центр оказывает специализированные услуги по акушерству и гинекологии.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-hospital"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Гастроэнтеролог</a></h3>
+							<p>В современном мире гастроэнтеролог – один из наиболее востребованных профильных специалистов в медицине.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-ambulance"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Дерматология</a></h3>
+							<p>Врач-дерматолог это специалист, занимающийся диагностикой и лечением кожных заболеваний</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-blood-donation"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Детский невролог</a></h3>
+							<p>Это доктор, который занимается диагностированием и лечением заболеваний, связанных с поражением центральной нервной системы.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-radiation"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Лаборатория</a></h3>
+							<p>Клиническая лабораторная диагностика.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-medical"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Лазерная хирургия</a></h3>
+							<p>Хирургический лазерный аппарат COSMO PULSE 25</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-healthy-1"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Неврология</a></h3>
+							<p>Врач-невролог специализируется на диагностике и лечении различных заболеваний периферической и центральной нервной системы.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-hospital"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Онкология</a></h3>
+							<p>Люди, которые заняты возвращения здоровья другим людям, выказывая удивительное единение мастерства и человечности, стоят превыше всех великих на этой земле</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-ambulance"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Проктология</a></h3>
+							<p>Очень деликатная и динамично развивающаяся наука, занимающаяся заболеваниями как заднего прохода и прямой кишки, так и всего толстого кишечника, нередко требующих не только медикаментозного, но в ряде случаев и более активного и даже хирургического лечения.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-blood-donation"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Терапия</a></h3>
+							<p>Довольно часто случается так, что в случае недомогания, болей или дискомфорта человек не понимает, к какому врачу ему следует обратиться. В этом случае обычно рекомендуется прийти на прием к терапевту.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-radiation"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Травмотолог-ортопед</a></h3>
+							<p>специалист клинической медицины по вопросам диагностики, лечения и профилактики травм (механических повреждений и ожогов), болезней и деформаций опорно-двигательного аппарата</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-medical"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Урология</a></h3>
+							<p>Врачи-урологи занимаются лечением таких широко распространенных заболеваний, как мочекаменная болезнь, импотенция, простатит, мужское бесплодие и др.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-healthy-1"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Хирургия</a></h3>
+							<p>Амбулаторная хирургия — перспективное и современное направление медицины, позволяющее проводить некоторые хирургические операции амбулаторно</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="flaticon-hospital"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Эндокринология</a></h3>
+							<p>Вопросы касательно заболеваний эндокринной системы человека волнуют большое количество пациентов, так как гормональные нарушения ведут за собой нарушения нормальной функциональности многих органов и систем человеческого организма.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="colorlib-choose">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="choose">
+					<div class="half img-bg" style="background-image: url(images/Бич.jpg);"></div>
+					<div class="half features-wrap">
+						<div class="colorlib-heading animate-box">
+							<h2>Почему мы?</h2>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="features animate-box">
+									<span class="icon text-center"><i class="flaticon-healthy-1"></i></span>
+									<div class="desc">
+										<h3>Квалифицированные специалисты</h3>
+										<p>В Белой Орхидее работает более 30 квалифицированных врачей различных специальностей</p>
+									</div>
+								</div>
+								<div class="features animate-box">
+									<span class="icon text-center"><i class="flaticon-stethoscope"></i></span>
+									<div class="desc">
+										<h3>Экономия времени</h3>
+										<p>Приём и консультации назначаются в удобное для вас время, без утомительного ожидания и очереди.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="features animate-box">
+									<span class="icon text-center"><i class="flaticon-medical-1"></i></span>
+									<div class="desc">
+										<h3>Широкий спектр услуг</h3>
+										<p>Диагностика, лечение и профилактика заболеваний по всем направлениям современной медицины.</p>
+									</div>
+								</div>
+								<div class="features animate-box">
+									<span class="icon text-center"><i class="flaticon-radiation"></i></span>
+									<div class="desc">
+										<h3>высокий уровень обслуживания</h3>
+										<p>удобный график работы, отсутствие очередей, индивидуальный подход к каждому посетителю медицинского центра, чуткий и внимательный персонал.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="colorlib-footer" role="contentinfo">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row row-pb-md">
+				<div class="col-md-3 colorlib-widget">
+					<h3>Белая Орхидея</h3>
+					<p>
+						Пн-сб 8:00-20:00 без перерыва
+						Вс 8:00-18:00 без перерыва
+						<br><br>
+						ул Ленина 84 Троицк Челябинская обл 457100
+						<br><br>
+						8-951-258-36-51, 8-982-363-41-00,
+						8 (35163) 5-80-10, 7-16-61 
+						<br><br>
+						лицензия ЛО-74-01-005291 от 01.11.2019
+					</p>
+				</div>
+				<div class="col-md-3 col-md-push-1 colorlib-widget">
+					<h3>Навигация</h3>
+					<ul class="colorlib-footer-links">
+						<li><a href="/"><i class="icon-check"></i>Главная</a></li>
+						<li><a href="/doctors/"><i class="icon-check"></i>Специалисты</a></li>
+						<li><a href="/services/"><i class="icon-check"></i>Услуги</a></li>
+						<li><a href="/skidki/"><i class="icon-check"></i>Акции</a></li>
+						<li><a href="/contact/"><i class="icon-check"></i>Контакты</a></li>
+					</ul>
+
+				</div>
+
+				<!-- <div class="col-md-3 colorlib-widget">
+					<h3>Our Services</h3>
+					<ul class="colorlib-footer-links">
+						<li><a href="#"><i class="icon-check"></i> Heart Surgery</a></li>
+						<li><a href="#"><i class="icon-check"></i> Surgical Treatment</a></li>
+						<li><a href="#"><i class="icon-check"></i> General Treatment</a></li>
+						<li><a href="#"><i class="icon-check"></i> Medical Treatment</a></li>
+						<li><a href="#"><i class="icon-check"></i> Help Desk</a></li>
+					</ul>
+				</div> -->
+
+				<div>
+					<a href="/"><img class="logo-footer" src="{% static 'images/logo.png' %}" alt=""></a>
+				</div>
+
+				<!-- <div class="col-md-3 colorlib-widget">
+					<h3>Заказать звонок</h3>
+					<form class="contact-form">
+						<div class="form-group">
+							<label for="name" class="sr-only">Имя</label>
+							<input type="name" class="form-control" id="name" placeholder="Имя">
+						</div>
+						<div class="form-group">
+							<label for="email" class="sr-only">Email</label>
+							<input type="email" class="form-control" id="email" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<label for="message" class="sr-only">Message</label>
+							<textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" id="btn-submit" class="btn btn-primary btn-send-message btn-md" value="Send Message">
+						</div>
+					</form>
+				</div> -->
+			</div>
+
+			<div>
+				<h3 class="contraindication">ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМА КОНСУЛЬТАЦИЯ СО СПЕЦИАЛИСТОМ</h3>
+			</div>
+
+		</div>
+		<div class="row copyright">
+			<div class="col-md-12 text-center">
+				<p class="all_rights_reserved">© 2021 ООО Белая Орхидея,<br>Все права защищены</p>
+			</div>
+		</div>
+	</footer>
+	</div>
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+	<!-- Stellar Parallax -->
+	<script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+	<!-- Carousel -->
+	<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+	<!-- Flexslider -->
+	<script src="{% static 'js/jquery.flexslider-min.js' %}"></script>
+	<!-- countTo -->
+	<script src="{% static 'js/jquery.countTo.js' %}"></script>
+	<!-- Magnific Popup -->
+	<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'js/magnific-popup-options.js' %}"></script>
+	<!-- Sticky Kit -->
+	<script src="{% static 'js/sticky-kit.min.js' %}"></script>
+	<!-- Main -->
+	<script src="{% static 'js/main.js' %}"></script>
+
+	</body>
+</html>
+

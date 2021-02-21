@@ -1,0 +1,828 @@
+{% load static %}
+
+<!-- 
+ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ
+https://drive.google.com/file/d/0B2VslAhiAVxeVFlKMjdzMktta2M/view
+ -->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Белая Орхидея</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href= " {% static 'css/animate.css' %}" >
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="{% static 'css/flexslider.css' %}">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="{% static 'fonts/flaticon/font/flaticon.css' %}">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+	<!-- Modernizr JS -->
+	<script src="{% static 'js/modernizr-2.6.2.min.js' %}"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<div class="colorlib-loader"></div>
+
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="top">
+								<div class="row">
+									<div class="col-md-6">
+										<a href="#"><img class="logo-hw" src="{% static 'images/logo.png' %}" alt=""></a>
+									</div>
+									<!-- <div class="col-md-6">
+									<div id="colorlib-logo"><a href="index.html"><i class="flaticon-stethoscope"></i>Белая<span> Орхидея</span></a></div>
+								</div> -->
+									<div class="col-md-3">
+										<div class="num">
+											<span class="icon"><i class="icon-phone"></i></span>
+											<p><a href="#"> 8-982-363-41-00</a><br><a href="#">8-951-258-36-51</a></p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="loc">
+											<span class="icon"><i class="icon-location"></i></span>
+											<p><a href="/contact/#ya_map">ул Ленина 84<br>Троицк 457100</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="menu-wrap">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-8">
+								<div class="menu-1">
+									<ul>
+										<li class="active"><a href="/index/">Главная</a></li>
+										<li>
+											<a href="/doctors/">Специалисты</a>
+										</li>
+										<li><a href="/services/">Услуги</a></li>
+										<li>
+											<a href="/skidki/">Акции</a>
+										</li>
+										<li><a href="/contact/">Контакты</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<p class="btn-cta"><a href="#"><span>Записаться на прием<i
+												class="icon-calendar3"></i></span></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+					<li style="background-image: url({% static 'images/orh_bg_1.webp' %})">
+						<div class="overlay"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 col-md-pull-2 slider-text">
+									<div class="slider-text-inner">
+										<h1><strong>Многопрофильный медицинский центр<br>Белая Орхидея</strong></h1>
+										<!-- <h2 class="doc-holder">Медицинский лечебно-диагностический центр белая орхидея</h2> -->
+										<p><a class="btn btn-primary btn-lg" href="#">Записаться на прием</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li style="background-image: url({% static 'images/img_bg_drx9000.jpg' %});">
+						<div class="overlay"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 col-md-pull-2 slider-text">
+									<div class="slider-text-inner">
+										<h1><strong>Аппарат DRX 9000</strong></h1>
+										<h2 class="doc-holder">Система DRX 9000 бережно восстанавливает нормальную
+											биомеханику в поврежденном сегменте позвоночника, и пациенты забывают о
+											болях в спине, что возвращает их к полноценной жизни</h2>
+										<p><a class="btn btn-primary btn-lg" href="#">Записаться на прием</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li style="background-image: url({% static 'images/covid.jpg' %});">
+						<div class="overlay"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 col-md-pull-2 slider-text">
+									<div class="slider-text-inner">
+										<h1><strong>COVID-19: диагностика, лечение, реабилитация, вакцинация</strong>
+										</h1>
+										<h2>Телефон горячей линии +7 351 240 15 16</h2>
+										<div class="covid-link">
+											<a class="covid-link-color"
+												href="https://стопкоронавирус.рф/">Cтопкоронавирус.рф</a>
+										</div>
+										<p><a class="btn btn-primary btn-lg btn-learn" href="#">Записаться на прием</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li style="background-image: url({% static 'images/oms.jpg' %});">
+						<div class="overlay"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 col-md-pull-2 slider-text">
+									<div class="slider-text-inner">
+										<h1><strong>Медицинский центр "Белая орхидея" оказывает медицинские услуги по
+												полисам ОМС</strong></h1>
+										<p><a class="btn btn-primary btn-lg btn-learn" href="#">Записаться на прием</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</aside>
+
+		<div id="colorlib-intro">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="intro animate-box">
+							<div class="intro-grid color-1">
+								<span class="icon"><i class="flaticon-hospital"></i></span>
+								<h3>Квалифицированные специалисты</h3>
+								<p class="line-height-box">Лечение проводят специалисты высшей категории, которые
+									внимательно относятся к пациентам</p>
+								<!-- <a href="#">Read more</a> -->
+							</div>
+							<div class="intro-grid color-2">
+								<span class="icon"><i class="flaticon-healthy-1"></i></span>
+								<h3>Экономия времени</h3>
+								<p class="line-height-box">Приём и консультации назначаются в удобное для вас время, без
+									утомительного ожидания и очереди.</p>
+								<!-- <a href="#">Read more</a> -->
+							</div>
+							<div class="intro-grid color-2">
+								<span class="icon"><i class="flaticon-sign"></i></span>
+								<h3>Доступная стоимость услуг</h3>
+								<p class="line-height-box">Мы за то, чтобы помощь квалифицированного специалиста была
+									доступна людям с разными финансовыми возможностями</p>
+								<!-- <a href="#">Read more</a> -->
+							</div>
+							<div class="intro-grid color-3">
+								<span class="icon"><i class="flaticon-ambulance"></i></span>
+								<h3>Применение эффективных методов</h3>
+								<p class="line-height-box">Для восстановления здоровья пациентов мы применяем
+									инновационные методы, основанные на последних открытиях медицинской науки.</p>
+								<!-- <a href="#">Read more</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<img class="img-responsive about-img" src="{% static 'images/white_orh.jpg' %}" alt="">
+					</div>
+					<div class="col-md-7 col-md-push-1">
+						<h2>О центре</h2>
+						<p>
+							Лечение на высоком уровне, доступные цены и комфорт — вот то, за чем обращаются пациенты в
+							многопрофильный медицинский центр «Белая Орхидея»
+						</p>
+						<div class="fancy-collapse-panel">
+							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingOne">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+												aria-expanded="true" aria-controls="collapseOne">Почему мы?
+											</a>
+										</h4>
+									</div>
+									<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+										aria-labelledby="headingOne">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-md-6">
+													<p>Современные методы обследования и диагностики, передовое
+														техническое оснащение, высокотехнологичное оборудование.</p>
+												</div>
+												<div class="col-md-6">
+													<p>Безупречная вежливость и внимательность персонала, сервис
+														высочайшего уровня.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingTwo">
+										<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+												href="#collapseTwo" aria-expanded="false"
+												aria-controls="collapseTwo">Наши услуги
+											</a>
+										</h4>
+									</div>
+									<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+										aria-labelledby="headingTwo">
+										<div class="panel-body">
+											<!-- <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> -->
+											<ul>
+												<li>Урология</li>
+												<li>Эндокринология</li>
+												<li>Акушерство и гинекология</li>
+												<li>Гастроэнтеролог</li>
+												<li>Дерматология</li>
+												<li>Детский невролог</li>
+												<li>Лазерная хирургия</li>
+												<li>Кардиология</li>
+												<li>Лаборатория</li>
+												<li>Лор</li>
+												<li>Маммология</li>
+												<li>Неврология</li>
+												<li>Онкология</li>
+												<li>Офтальмология</li>
+												<li>Проктология</li>
+												<li>Терапия</li>
+												<li>Травмотолог-ортопед</li>
+												<li>УЗИ</li>
+												<li>Хирургия</li>
+												<li>Флеболог</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingThree">
+										<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+												href="#collapseThree" aria-expanded="false"
+												aria-controls="collapseThree">Мы в социальных сетях
+											</a>
+										</h4>
+									</div>
+									<div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+										aria-labelledby="headingThree">
+										<div class="panel-body">
+											<ul>
+												<li>
+													<a href="https://ok.ru/meditsinsi">Одноклассники</a>
+												</li>
+												<li>
+													<a href="https://vk.com/orchid_74">Вконтакте</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-appointment">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<h2 class="line-block">Выбрать дату</h2>
+						<p class="line-block"><a href="#" class="btn btn-primary btn-outline btn-cta">Записаться на
+								прием<i class="icon-calendar3"></i></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-services">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
+						<h2>Популярные услуги</h2>
+						<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-healthy-1"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Маммология</a></h3>
+								<p>В последнее время женщины так часто обращаются за консультацией к маммологу, что его
+									принято считать «вторым» женским врачом после гинеколога.</p>
+								<a href="/services/#all-services">Посмотреть все услуги</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-hospital"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">УЗИ</a></h3>
+								<p>Эффективный и безболезненный метод диагностики, который всего за двадцать лет своего
+									существования стал широко применяться в различных медицинских учреждениях.</p>
+								<a href="/services/#all-services">Посмотреть все услуги</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-ambulance"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Кардиология</a></h3>
+								<p>Это раздел клинической медицины, изучающий строение, функции сердца и
+									сердечно-сосудистой системы, а также различные болезни сердца, методы их
+									профилактики, диагностики, лечения, реабилитации.</p>
+								<a href="/services/#all-services">Посмотреть все услуги</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-blood-donation"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Лор</a></h3>
+								<p>Если вовремя не лечить воспаления, возникающие в гайморовой пазухе, то можно
+									«заработать» гайморит</p>
+								<a href="/services/#all-services">Посмотреть все услуги</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-radiation"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Флеболог</a></h3>
+								<p>Своевременный осмотр и обследование позволяют выявлять патологию сосудов на ранней
+									стадии их развития.</p>
+								<a href="/services/#all-services">Посмотреть все услуги</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-medical"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Офтальмология</a></h3>
+								<p>На сегодняшний день, наша жизнь не возможна без визуальных средств информации,
+									однако, нередко это приводит к перенапряжению органов зрения.</p>
+								<a href="/services/#all-services">Посмотреть все услуги</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="colorlib-doctor">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
+						<h2>Самые востребованные</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12 animate-box text-center">
+						<div class="doctor">
+							<a href="/doctors/#bich">
+								<div class="staff-img" style="background-image: url({% static 'images/Бич.jpg' %});"></div>
+							</a>
+							<div class="desc">
+								<h3><a href="/doctors/#bich">Бич Татьяна Владимировна</a></h3>
+								<span>Главный врач</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 animate-box text-center">
+						<div class="doctor">
+							<a href="/doctors/#dektyaryov">
+								<div class="staff-img" style="background-image: url({% static 'images/Дегтярев.jpg' %});"></div>
+								<div class="desc">
+									<h3><a href="/doctors/#dektyaryov">Дегтярев Максим Сергеевич</a></h3>
+									<span>Сосудистый хирург – флеболог</span>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 animate-box text-center">
+						<div class="doctor">
+							<a href="/doctors/#sorokina">
+								<div class="staff-img" style="background-image: url({% static 'images/Сорокина.jpg' %});"></div>
+								<div class="desc">
+									<h3><a href="/doctors/#sorokina">Сорокина Светлана Владимировна</a></h3>
+									<span>Врач-колопроктолог</span>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 animate-box text-center">
+						<div class="doctor">
+							<a href="/doctors/#sherbakov">
+								<div class="staff-img" style="background-image: url({% static 'images/Щербаков.jpg' %});"></div>
+								<div class="desc">
+									<h3><a href="/doctors/#sherbakov">Щербаков Алексей Андреевич</a></h3>
+									<span>Врач-оториноларинголог - хирург</span>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-counter" class="colorlib-counters"
+			style="background-image: url({% static 'images/img_bg_microscope.jpg' %});" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="row">
+							<div class="col-md-3 col-sm-6 text-center animate-box">
+								<span class="icon"><i class="flaticon-healthy"></i></span>
+								<span class="colorlib-counter js-counter" data-from="0" data-to="30000"
+									data-speed="4000" data-refresh-interval="50"></span>
+								<span class="colorlib-counter-label">Постоянных клиентов</span>
+							</div>
+							<div class="col-md-3 col-sm-6 text-center animate-box">
+								<span class="icon"><i class="flaticon-hospital"></i></span>
+								<span class="colorlib-counter js-counter" data-from="0" data-to="6" data-speed="4000"
+									data-refresh-interval="50"></span>
+								<span class="colorlib-counter-label">Лет успешной работы</span>
+							</div>
+							<div class="col-md-3 col-sm-6 text-center animate-box">
+								<span class="icon"><i class="flaticon-healthy-1"></i></span>
+								<span class="colorlib-counter js-counter" data-from="0" data-to="283" data-speed="4000"
+									data-refresh-interval="50"></span>
+								<span class="colorlib-counter-label">Услуги</span>
+							</div>
+							<div class="col-md-3 col-sm-6 text-center animate-box">
+								<span class="icon"><i class="flaticon-ambulance"></i></span>
+								<span class="colorlib-counter js-counter" data-from="0" data-to="23" data-speed="4000"
+									data-refresh-interval="50"></span>
+								<span class="colorlib-counter-label">Направления</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-blog">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
+						<h2>Акции</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<a href="/skidki/#sales_blog" class="blog-img"
+								style="background-image: url({% static 'images/sale_1.jpg' %});"></a>
+							<div class="desc">
+								<h3><a href="/skidki/#sales_blog">399 рублей</a></h3>
+								<p>Прием специалистов - терапевта и кадиолога</p>
+								<p><a href="/skidki/#sales_blog">Посмотреть все акции<i
+											class="icon-arrow-right3"></i></a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<a href="/skidki/#sales_blog" class="blog-img"
+								style="background-image: url({% static 'images/sale_2.jpg' %});"></a>
+							<div class="desc">
+								<h3><a href="/skidki/#sales_blog">От 450 рублей</a></h3>
+								<p>Водительские комиссии в Белой Орхидее</p>
+								<p><a href="/skidki/#sales_blog">Посмотреть все акции<i
+											class="icon-arrow-right3"></i></a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<a href="/skidki/#sales_blog" class="blog-img"
+								style="background-image: url({% static 'images/sale_3.jpg)' %};"></a>
+							<div class="desc">
+								<h3><a href="/skidki/#sales_blog">Бесплатно</a></h3>
+								<p>Прием офтальмолога пациетам от 60 лет бесплатно</p>
+								<p><a href="/skidki/#sales_blog">Посмотреть все акции<i
+											class="icon-arrow-right3"></i></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-testimonial" class="colorlib-bg-section">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
+						<h2>Отзывы наших пациентов</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box">
+						<div class="owl-carousel">
+							<div class="item">
+								<div class="testimony text-center">
+									<span class="img-user" style="background-image: url({% static 'images/Бекчиу.jpg' %});"></span>
+									<span class="user">Бекчиу Елена Васильевна</span>
+									<blockquote>
+										<p>"Бекчиу Елена Васильевна - лучшая в своем деле! Неоднократно обращалась к ней
+											на обследование и всегда столько внимания! Все расскажет, объяснит, ответит
+											на вопросы, порекомендует врача! Спасибо вам! Будьте здоровы!"</p>
+										<p class="color"><span><i class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span></p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony text-center">
+									<span class="img-user" style="background-image: url({% static 'images/Сорокина.jpg' %});"></span>
+									<span class="user">Сорокина Светлана Владимировна</span>
+									<blockquote>
+										<p>"К врачу Сорокиной записалась просто потому что она женщина, чтобы не
+											чувствовать себя неловко. Но в ее лице нашла очень хорошее сочетание
+											профессионализма и человечности. При моем просто паническом страхе такого
+											рода осмотров все прошло спокойно. Спасибо!"</p>
+										<p class="color"><span><i class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span></p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony text-center">
+									<span class="img-user" style="background-image: url({% static 'images/Дегтярев.jpg' %});"></span>
+									<span class="user">Дегтярев Максим Сергеевич</span>
+									<blockquote>
+										<p>"Доброжелательность и серьезный подход врача сразу вызвали во мне чувство
+											спокойствия и уверенности в правильности выбора центра и врача. С венами у
+											меня уже давно были проблемы, но на какие-либо меры я решилась только сейчас
+											и не жалею, что моим врачом стал именно Максим Сергеевич. У него умелые
+											руки, иначе не удалось бы настолько профессионально провести склерозирование
+											и получить такой шикарный эффект. Мне очень нравится результат, спасибо
+											огромное, я теперь знаю, что у нас есть хорошие врачи, которым не страшно
+											доверять."</p>
+										<p class="color"><span><i class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span></p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony text-center">
+									<span class="img-user"
+										style="background-image: url({% static 'images/img_bg_drx9000.jpg' %});"></span>
+									<span class="user">DRX 9000</span>
+									<blockquote>
+										<p>"Обратилась за помощью в клинику «белая орхидея» для лечения на аппарате DRX
+											9000. Состояние было ужасное, боли отдавали в ногу, ни сидеть, ни ходить, ни
+											лежать не могла без боли. Разные методы лечения пробовала, но все это не
+											надолго. Лечение на аппарате DRX сняло боль на 8-10 сеансе, и я с радостью
+											вернулась к нормальной жизни. После всего курса чувствую себя очень хорошо,
+											работаю в полную нагрузку, только иногда по утрам возникает боль при
+											неловком движении. Днем боли нет совсем. Надеюсь, что эффект сохранится
+											надолго. Спасибо всем врачам и сотрудникам клиники «белая орхидея»"</p>
+										<p class="color"><span><i class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span></p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony text-center">
+									<span class="img-user" style="background-image: url({% static 'images/Авдеева.jpg' %});"></span>
+									<span class="user">Авдеева Валентина Петровна</span>
+									<blockquote>
+										<p>"Авдеева Валентина Петровна - врач с большой буквы!!! Великолепный доктор,
+											очень грамотный и профессиональный! При кажущейся внешней сдержанности,
+											Валентина Петровна целиком погружается в твои проблемы и пытается помочь.
+											Берет ответственность не только за твое женское здоровье, но и здоровье в
+											целом. Побольше бы таких врачей! Желаю доктору здоровья и успехов!!"</p>
+										<p class="color"><span><i class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span></p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony text-center">
+									<span class="img-user" style="background-image: url({% static 'images/Сорокина.jpg' %});"></span>
+									<span class="user">Сорокина Светлана Владимировна</span>
+									<blockquote>
+										<p>"Светлана Владимировна - врач от Бога. Прошло уже больше года с нашего
+											первого знакомства в МЦ «Орхидея». Боялась тогда идти на прием, как сейчас
+											помню. Администраторы клиники профессионально проконсультировали и на
+											встречу шла подготовленной. Отношение к пациенту поразило. Благодарна за все
+											и рекомендую. Светлана Владимировна всегда ответит на интересующие вопросы и
+											не даст раскиснуть даже если проблема серьезная. Следую указаниям доктора и
+											наслаждаюсь жизнью. Спасибо огромное и низкий поклон."</p>
+										<p class="color"><span><i class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span><span><i
+													class="icon-star3"></i></span></p>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<footer id="colorlib-footer" role="contentinfo">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-3 colorlib-widget">
+						<h3>Белая Орхидея</h3>
+						<p>
+							Пн-сб 8:00-20:00 без перерыва
+							Вс 8:00-18:00 без перерыва
+							<br><br>
+							ул Ленина 84 Троицк Челябинская обл 457100
+							<br><br>
+							8-951-258-36-51, 8-982-363-41-00,
+							8 (35163) 5-80-10, 7-16-61
+							<br><br>
+							лицензия ЛО-74-01-005291 от 01.11.2019
+						</p>
+					</div>
+					<div class="col-md-3 col-md-push-1 colorlib-widget">
+						<h3>Навигация</h3>
+						<ul class="colorlib-footer-links">
+							<li><a href="/"><i class="icon-check"></i>Главная</a></li>
+							<li><a href="/doctors/"><i class="icon-check"></i>Специалисты</a></li>
+							<li><a href="/services/"><i class="icon-check"></i>Услуги</a></li>
+							<li><a href="/skidki/"><i class="icon-check"></i>Акции</a></li>
+							<li><a href="/contact/"><i class="icon-check"></i>Контакты</a></li>
+						</ul>
+					</div>
+
+					<!-- <div class="col-md-3 colorlib-widget">
+					<h3>Our Services</h3>
+					<ul class="colorlib-footer-links">
+						<li><a href="#"><i class="icon-check"></i> Heart Surgery</a></li>
+						<li><a href="#"><i class="icon-check"></i> Surgical Treatment</a></li>
+						<li><a href="#"><i class="icon-check"></i> General Treatment</a></li>
+						<li><a href="#"><i class="icon-check"></i> Medical Treatment</a></li>
+						<li><a href="#"><i class="icon-check"></i> Help Desk</a></li>
+					</ul>
+				</div> -->
+
+					<div>
+						<a href="#"><img class="logo-footer" src="{% static 'images/logo.png' %}" alt=""></a>
+					</div>
+
+					<!-- <div class="col-md-3 colorlib-widget">
+					<h3>Заказать звонок</h3>
+					<form class="contact-form">
+						<div class="form-group">
+							<label for="name" class="sr-only">Имя</label>
+							<input type="name" class="form-control" id="name" placeholder="Имя">
+						</div>
+						<div class="form-group">
+							<label for="email" class="sr-only">Email</label>
+							<input type="email" class="form-control" id="email" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<label for="message" class="sr-only">Message</label>
+							<textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" id="btn-submit" class="btn btn-primary btn-send-message btn-md" value="Send Message">
+						</div>
+					</form>
+				</div> -->
+				</div>
+
+				<div>
+					<h3 class="contraindication">ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМА КОНСУЛЬТАЦИЯ СО СПЕЦИАЛИСТОМ</h3>
+				</div>
+
+			</div>
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p class="all_rights_reserved">© 2021 ООО Белая Орхидея,<br>Все права защищены</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+	<!-- Stellar Parallax -->
+	<script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+	<!-- Carousel -->
+	<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+	<!-- Flexslider -->
+	<script src="{% static 'js/jquery.flexslider-min.js' %}"></script>
+	<!-- countTo -->
+	<script src="{% static 'js/jquery.countTo.js' %}"></script>
+	<!-- Magnific Popup -->
+	<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'js/magnific-popup-options.js' %}"></script>
+	<!-- Sticky Kit -->
+	<script src="{% static 'js/sticky-kit.min.js' %}"></script>
+	<!-- Main -->
+	<script src="{% static 'js/main.js' %}"></script>
+
+	<script type="text/javascript" src="{% static 'js/uGost11.js' %}"></script>
+
+</body>
+
+</html>
