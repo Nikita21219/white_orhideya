@@ -14,7 +14,7 @@ ALLOWED_HOSTS = ['127.0.0.1', '188.93.210.49']
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycorg2',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'banket',
         'USER': 'userdb',
         'PASSWORD': 'marader3202',
