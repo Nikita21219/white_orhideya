@@ -138,4 +138,4 @@ dmypy.json
 cython_debug/
 
 
-prod.settings.py
+prod_settings.py
