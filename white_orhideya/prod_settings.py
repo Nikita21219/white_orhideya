@@ -5,7 +5,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '(04!&lwg@&2na1^$_skrhbdft5h31_(epc)b)2jsd(*sjmrws!'
+SECRET_KEY = '(00!&lwg@&2na1^$_dbrksnfr5h31_(vhw)q)2ekc(*qpy,zm?'
 
 
 DEBUG = False
