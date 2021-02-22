@@ -655,6 +655,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: linear-gradient(45deg, #1e696d 0%, #3fa33d 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43DDE6', endColorstr='#9870FC',GradientType=1 );
+  
   /* IE6-9 fallback on horizontal gradient */ }
   /* .choose .half {
     width: 50%;
