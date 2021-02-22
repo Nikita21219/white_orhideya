@@ -10,13 +10,13 @@ SECRET_KEY = '(04!&lwg@&2na1^$_skrhbdft5h31_(epc)b)2jsd(*sjmrws!'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1'] 
+ALLOWED_HOSTS = ['127.0.0.1', '188.93.210.49'] 
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycorg2',
-        'NAME': 'db_name',
-        'USER': 'postgres',
+        'NAME': 'banket',
+        'USER': 'userdb',
         'PASSWORD': 'marader3202',
         'HOST': 'localhost',
         'PORT': '5432',
